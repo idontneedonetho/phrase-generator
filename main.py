@@ -1,8 +1,6 @@
 import random
+print("Press enter to get new line. Press space then enter to quit.")
 while True:
-    q = input("").lower()
-    if q == (' '):
-        break
     with open("Adj.txt") as adj:
         selectadj = adj.readlines()
     with open("curwords.txt") as curs:
@@ -18,4 +16,7 @@ while True:
     fin = [i for i in fin if i not in ('\n')]
     final = ''.join(map(str, fin))
     print(f"You {final}!")
+    q = input("").lower()
+    if q == (' '):
+        break
     continue

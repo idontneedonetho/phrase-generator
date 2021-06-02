@@ -6644,3 +6644,5 @@ zoo
 zoologist
 zoot-suit
 zucchini
+boomer
+baka
